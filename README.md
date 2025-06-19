@@ -1,7 +1,7 @@
 ## Digital Twin for UK's National Student Survey (NSS)
 
-![2022-Options](images\readme\response-scale-2022-color.png)
-![2023-Options](images\readme\response-scale-2023-color.png)
+![2022-Options](./images/readme/response-scale-2022-color.png)
+![2023-Options](./images/readme/response-scale-2023-color.png)
 
 Dissertation for Master's course focused on building AI Digital Twins for the National Student Survey data. The project accommodates changes in the survey format while also understanding difference in student responses across countries. Highlights data understanding & operations along with knowledge of AI methods and extensive research. The resulting Digital Twins simulate the student satisfaction measure (Positivity) which can substantially aid universities in making informed decisions regarding course related matters. Links : [Gallery](https://drive.google.com/drive/folders/1ZONnV8QwZ9UPhBQxoD5NivTGvpyhjIBU) / [Report](https://drive.google.com/file/d/1pIaSQeuwMIr7kaisAWjHednSJOwUdvVQ/view)
 
@@ -39,7 +39,7 @@ The Office for Students (OfS) and the UK funding and regulatory bodies began a t
 
   3) The review also resulted in the decision of adding 2 new questions to the survey. One on mental well-being services (asked all over the UK), and the other on Freedom of Expression (asked only in England).
 
-![Region-Subsets](images\readme\generate-region-subsets.png)
+![Region-Subsets](./images/readme/generate-region-subsets.png)
 
 #### Testing multiple models :
 - Using 2022 data (with true values), multiple CNN models were tested to predict positivity scores
@@ -51,7 +51,7 @@ The Office for Students (OfS) and the UK funding and regulatory bodies began a t
 - Once all sets had positivity measures, English & Non-English sets were combined & re-shuffled
 - Model was tested again on complete (shuffled) data until it could reasonable predict positivity (4 options) 
 
-![Model-03-Layout](images\readme\model-03-structure.png)
+![Model-03-Layout](./images/readme/model-03-structure.png)
 
 #### Conclusion :
 
